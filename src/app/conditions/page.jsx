@@ -22,7 +22,7 @@ const ConditionsPage = () => {
           </p>
         </div>
 
-        <div className="bg-white md:rounded-[12px] rounded-[6px] md:px-[30px] px-4 lg:pt-[41px] md:pt-[30px] pt-4 lg:mt-5 md:mt-6 mt-5">
+        <div className="bg-white md:rounded-[12px] rounded-[6px] md:px-[30px] px-4 lg:pt-[41px] md:pt-[30px] pt-4 lg:mt-5 md:mt-6 mt-5 mb-4 md:mb-6 lg:mb-0">
           <h1 className="text-[#0C1116] lg:text-[48px] md:text-[36px] text-[20px] font-bold lg:leading-[57px] md:leading-[43px] leading-6">
             Service Agreement
           </h1>
@@ -2430,12 +2430,13 @@ We have a satisfaction guarantee which entitles you to a refund, provided you re
                  <div className='w-full h-[1px] bg-[#D6DADE] md:my-[30px] my-[15px]'></div>
 
               {/* footer */}
-              <div className="md:flex justify-between items-center md:pb-[30px] pb-4">
-                <p className="text-[#4F5B67] md:text-[16px] text-[12px] font-normal md:leading-6 leading-[18px] text-center md:text-left"> &copy; 2024 Credit Repair Automate. All right reserved.</p>
+           
+              <div className="md:flex justify-between items-center md:pb-[30px] pb-4 pt-[15px] md:pt-0 lg:px-[50px] md:px-[30px] px-[16px]">
+                <p className="text-[#4F5B67] md:text-[16px] text-[12px] font-normal md:leading-6 leading-[18px] text-left"> &copy; 2024 Credit Repair Automate. All right reserved.</p>
               
               
-                <div className="flex items-center justify-center md:justify-start md:gap-6 gap-[10px] mt-[10px] md:mt-0">
-                 <div className="flex gap-4 items-center justify-center">
+                <div className="flex items-center  md:gap-6 gap-[10px] mt-[10px] md:mt-0">
+                 <div className="flex md:gap-4 gap-[10px] items-center justify-center">
                     <Image className="cursor-pointer" src={facebook} alt="facebook"/>
                     <Image className="cursor-pointer" src={instagram} alt="facebook"/>
                     <Image className="cursor-pointer" src={youtube} alt="facebook"/>
@@ -2444,15 +2445,14 @@ We have a satisfaction guarantee which entitles you to a refund, provided you re
            
 
              <div className="">
-                <p className="text-[#373F47] md:text-[16px] text-[12px] font-normal md:leading-6 leading-[18px] text-center md:text-left">Terms of use</p>
+                <p className="text-[#373F47] md:text-[16px] text-[12px] font-normal md:leading-6 leading-[18px] text-left">Terms of use</p>
              </div>
                <div className="">
-                <p className="text-[#373F47] md:text-[16px] text-[12px] font-normal md:leading-6 leading-[18px] text-center md:text-left">Privacy policy</p>
+                <p className="text-[#373F47] md:text-[16px] text-[12px] font-normal md:leading-6 leading-[18px] text-left">Privacy policy</p>
              </div>
 
              </div>
              </div>
-
 
         </div>
 
