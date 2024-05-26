@@ -15,7 +15,7 @@ const HomePage = () => {
           </Link>
           
            <Link href='/conditions'>
-          <button className="w-[170px] h-[48px] font-bold text-white rounded-md bg-blue-500">Service Agreements</button>
+          <button className="w-[170px] h-[48px] font-bold text-white rounded-md bg-blue-500">Service Agreement</button>
           </Link>
 
          </div>
